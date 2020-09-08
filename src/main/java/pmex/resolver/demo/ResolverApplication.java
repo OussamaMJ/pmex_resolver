@@ -4,11 +4,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import pmex.resolver.demo.tradingDays.TradingDaysThread;
 
 @SpringBootApplication
 public class ResolverApplication implements CommandLineRunner {
     @Autowired
-    Threads threads;
+    TradingDaysThread tradingDaysThread;
 
     public static void main(String[] args) {
         SpringApplication.run(ResolverApplication.class, args);
@@ -17,6 +18,6 @@ public class ResolverApplication implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
         System.out.println("Hello in Thread :" + Thread.currentThread().getName());
-        threads.startTask();
+        tradingDaysThread.startTask();
     }
 }
