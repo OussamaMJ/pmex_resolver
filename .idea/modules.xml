@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/pmex-lib-entities/pmex-lib-entities.iml" filepath="$PROJECT_DIR$/pmex-lib-entities/pmex-lib-entities.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pmex_resolver.iml" filepath="$PROJECT_DIR$/pmex_resolver.iml" />
+    </modules>
+  </component>
+</project>

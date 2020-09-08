@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d57810b0-aa24-4004-9548-62093a02450e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/DemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/HibernatePgSqlEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/dao/CompaniesDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/dao/CompanyPublicationsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/dao/CompanyRulesDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/dao/CompanyScoringsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/dao/CompanyShareholdersBreakdownDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/dao/CompanyShareholdersDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/dao/CompanySharesDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/dao/OwnedShareHistoryDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/dao/TradingDayParticipantsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/dao/TradingDayRulesDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/dao/TradingDaysDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/dao/TradingOrdersDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/dao/TransactionPerSharesDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/dao/TransactionsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/dao/UserAddressesDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/dao/UserNationalityDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/dao/UserSetupAlertsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/dao/UsersAlertsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/dao/UsersDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/entities/EntityCompanies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/entities/EntityCompanyPublications.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/entities/EntityCompanyRules.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/entities/EntityCompanyScorings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/entities/EntityCompanyShareholders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/entities/EntityCompanyShareholdersBreakdown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/entities/EntityCompanyShares.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/entities/EntityOwnedShareHistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/entities/EntityTradingDayParticipants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/entities/EntityTradingDayRules.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/entities/EntityTradingDays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/entities/EntityTradingOrders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/entities/EntityTransactionPerShares.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/entities/EntityTransactions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/entities/EntityUserAddresses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/entities/EntityUserNationality.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/entities/EntityUserSetupAlerts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/entities/EntityUsers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/entities/EntityUsersAlerts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/entities/IdOfCompanyShareholders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/entities/IdOfTradingDayParticipants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/enums/RefAlertCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/enums/RefAlgorithmResolution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/enums/RefMatchingStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/enums/RefNegociationAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/enums/RefParticipationStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/enums/RefRatingRythm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/enums/RefSetupAlertType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/enums/RefStrategyFixingNegotiation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/enums/RefStrategyMatching.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/enums/RefStrategyOtcNegotiation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/enums/RefTitleShareholder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/enums/RefTradingAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/enums/RefTypeOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/enums/RefTypePublication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/enums/RefTypeShareholder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/enums/RefVisualIndicator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/repositories/CompaniesRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/repositories/CompanyPublicationsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/repositories/CompanyRulesRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/repositories/CompanyScoringsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/repositories/CompanyShareholdersBreakdownRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/repositories/CompanyShareholdersRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/repositories/CompanySharesRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/repositories/OwnedShareHistoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/repositories/TradingDayParticipantsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/repositories/TradingDayRulesRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/repositories/TradingDaysRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/repositories/TradingOrdersRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/repositories/TransactionPerSharesRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/repositories/TransactionsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/repositories/UserAddressesRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/repositories/UserNationalityRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/repositories/UserSetupAlertsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/repositories/UsersAlertsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/java/com/degetel/pmex/en/repositories/UsersRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pmex-lib-entities/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="pmex_resolver" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1hCOarU2TuLn71Kghd1MSqStBRD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Spring\Certifiction\pivotal-certified-pro-spring-dev-exam-02-master\chapter03\pmex_resolver" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pmex.resolver.demo.services" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ResolverApplication">
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="pmex-lib-entities" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.degetel.pmex.en.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ResolverApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="pmex_resolver" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="pmex.resolver.demo.ResolverApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d57810b0-aa24-4004-9548-62093a02450e" name="Default Changelist" comment="" />
+      <created>1599511673552</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599511673552</updated>
+      <workItem from="1599511678671" duration="4998000" />
+      <workItem from="1599549296470" duration="70000" />
+      <workItem from="1599549471587" duration="18298000" />
+    </task>
+    <task id="LOCAL-00001" summary="Threads and Timers installed">
+      <created>1599574492666</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599574492666</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Threads and Timers installed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Threads and Timers installed" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser" timestamp="1599570619598">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1599570619598" />
+    <state x="354" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1599574229434">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="354" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1599574229434" />
+    <state x="169" y="0" key="CommitChangelistDialog2" timestamp="1599602421799">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="169" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1599602421799" />
+    <state x="129" y="61" key="DiffContextDialog" timestamp="1599580190466">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="129" y="61" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1599580190466" />
+    <state x="517" y="281" width="356" height="166" key="Github.CreateGistDialog" timestamp="1599516050185">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="517" y="281" width="356" height="166" key="Github.CreateGistDialog/0.0.1366.728@0.0.1366.728" timestamp="1599516050185" />
+    <state x="549" y="258" key="Github.ShareDialog" timestamp="1599516288981">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="549" y="258" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1599516288981" />
+    <state x="306" y="70" key="Github.UntrackedFilesDialog" timestamp="1599516304795">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="306" y="70" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1599516304795" />
+    <state width="1323" height="76" key="GridCell.Tab.0.bottom" timestamp="1599601925092">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="76" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599601925092" />
+    <state width="1323" height="76" key="GridCell.Tab.0.center" timestamp="1599601925092">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="76" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599601925092" />
+    <state width="1323" height="76" key="GridCell.Tab.0.left" timestamp="1599601925091">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="76" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599601925091" />
+    <state width="1323" height="76" key="GridCell.Tab.0.right" timestamp="1599601925092">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="76" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599601925092" />
+    <state width="1323" height="159" key="GridCell.Tab.1.bottom" timestamp="1599593965794">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="159" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599593965794" />
+    <state width="1323" height="159" key="GridCell.Tab.1.center" timestamp="1599593965794">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="159" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1599593965794" />
+    <state width="1323" height="159" key="GridCell.Tab.1.left" timestamp="1599593965794">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="159" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1599593965794" />
+    <state width="1323" height="159" key="GridCell.Tab.1.right" timestamp="1599593965794">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="159" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1599593965794" />
+    <state x="184" y="7" key="SettingsEditor" timestamp="1599549371661">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="7" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1599549371661" />
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1599602431006">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1599602431006" />
+  </component>
+</project>
